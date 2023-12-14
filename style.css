@@ -1,0 +1,191 @@
+
+h1 {
+    color:rgb(13, 57, 57);
+    text-align:center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:800;
+    margin-top:2em;
+}
+
+h2{
+    color:rgb(13, 57, 57);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color:#f6e6e1;
+    font-family:sans-serif;
+    font-weight:400;
+}
+
+.header-layout {
+    width:100vw;
+    height:100vh;
+    background-image:url(img/index-foto.jpg);
+    background-position: bottom;
+    background-size: cover;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.header-content {
+    margin-bottom:150px;
+    color:white;
+    text-align:center;
+}
+
+.header-content h2 {
+    font-size:1em;
+    margin-bottom:3em;
+    text-align:center;
+}
+
+.button {
+    padding:2em;
+    margin-bottom:7em;
+    margin-top:7em;
+    border-radius: 40px;
+    color:black;
+    background-color:#f6e6e1;
+    border: 4px solid black;
+    text-align:center;
+}
+
+.button:hover {
+    background-color:rgb(191, 219, 191);
+    color:black;
+}
+
+.color {
+    color:white;
+}
+
+.color-2 {
+    color:black;
+}
+
+header p {
+    margin-top:5em;
+    justify-content:center;
+    width:30vw;
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ul {
+    display:flex;
+    justify-content:space-between;
+    font-weight:200;
+    font-size:1.5em;
+    color: rgb(13, 57, 57);
+    width:98vw;
+    list-style-type:none;
+    border: solid white;
+    background-color:white;
+    text-align:end;
+    padding-top:1em;
+    padding-bottom:1em;
+    margin-left:0%;
+    margin-right:0%;
+    margin-bottom:1em;
+    margin-top:0%;
+}
+
+main li {
+    margin-inline:1em;
+    text-align:center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(13, 57, 57);
+    font-weight:600;
+    margin-right:2em;
+    margin-bottom:2em;
+}
+
+a:hover {
+    color:brown;
+}
+
+main img {
+    width:25vw;
+}
+
+.hoofdfoto {
+    width:100vw;
+    height:45vh;
+    margin-right: 0%;
+    margin-left:0%;
+}
+
+main section p:nth-child(1) {
+    vertical-align:middle;
+    width:50vw;
+    height:35vh;
+    padding:1em;
+}
+
+section:nth-child(1) {
+    margin-right:auto;
+    margin-left:auto;
+    width:60em;
+    padding:0.5em;
+}
+
+p {
+    color:rgb(13, 57, 57);
+    font-family:'Times New Roman', Times, serif;
+    margin-right:2em;
+    font-weight:400;
+}
+
+.onderstrepen {
+    text-decoration:underline;
+    color:brown;
+}
+
+main article a:hover { 
+    color: black;
+}
+
+footer {
+    border:2px solid white;
+    background-color:white;
+    width:100vw;
+    height:20vh;
+    padding-top:1em;
+    padding-bottom:7em;
+    text-align:left;
+} 
+
+.positie-footer {
+    text-align:left;
+}
+
+.footer-index {
+    list-style-type:none;
+    width:100vw;
+    height:5vh;
+}
+
+.alles-footer {
+    margin-top:3em;
+}
+
+.bronnen-index {
+    padding-left:1em;
+}
+
+.bron-titel {
+    padding-left:2em;
+}
+
+.bron {
+    list-style-type: none;
+    text-align:left;
+    padding-left:2em;
+}
+
+
